@@ -1,0 +1,1000 @@
+sudo apt-get update
+sudo apt-get purge nodejs npm
+npm
+sudo apt install npm
+sudo apt-get purge nodejs npm
+sudo apt-get install -y nodejs
+npm
+nodejs --version
+npm
+npm update
+npn version
+npm version
+npm
+npm upgrade
+npm create-react-kotlin-app
+npm install -g create-react-kotlin-app
+sudo npm install -g create-react-kotlin-app
+npx
+./gradlew
+gradle wrapper
+./gradlew
+gradle wrapper
+gradle
+gradle wrapper
+gradle
+gradle wrapper
+gradle
+gradle update
+gradle --help
+sudo apt remove gradle
+sudo apt install gradle
+gradle
+sudo add-apt-repository ppa:cwchien/gradle
+sudo apt-get update
+sudo apt upgrade gradle
+./gradlew run
+./gradlew clean build
+ssh://git@werkbank.edeka:7999/dppmob/digitales-supergeile-botschaft.git
+./gradlew run
+gradle run
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+dukat
+grep -nr "navigation" .
+pwd
+dukat /home/jens/IdeaProjects/untitled5/src/AppBar.d.ts
+pwd
+ls
+dukat /home/jens/IdeaProjects/untitled5/src/AppBar.d.ts -m dukat /home/jens/IdeaProjects/untitled5/src/
+dukat /home/jens/IdeaProjects/untitled5/src/AppBar.d.ts -m dukat /home/jens/IdeaProjects/untitled5/src
+dukat
+dukat /home/jens/IdeaProjects/untitled5/src/AppBar.d.ts -d dukat /home/jens/IdeaProjects/untitled5/src
+dukat /home/jens/IdeaProjects/untitled5/src/AppBar.d.ts -d /home/jens/IdeaProjects/untitled5/src/
+./gradlew :clean :build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+dukat AppBar.d.ts 
+dukat AppBar.d.t
+./studiow
+gradle
+./gradlew :clean :build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+jps
+pub get
+flutter pub get
+flutter doctor
+flutter pub get
+grep -nr "ListBuilder" .
+pub run build_runner build
+flutter pub run build_runner build
+dart --observe --pause-isolates-on-start .dart_tool/build/entrypoint/build.dart build
+flutter pub run build_runner --observe --pause-isolates-on-start .dart_tool/build/entrypoint/build.dart build
+flutter pub run build_runner debug
+flutter pub run build_runner
+flutter pub
+sudo apt update
+flutter packages pub run build_runner build --delete-conflicting-outputs
+flutter packages pub run build_runner build
+cd chopper
+flutter pub run build_runner build
+cd.. 
+cd chopper_generator
+cd ..
+cd chopper_generator
+flutter pub run build_runner build
+pub get
+flutter pub get
+cd ..
+cd chopper
+flutter pub get
+.gradlew
+./gradlew clean build
+./gradlew :clean :build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+jps
+gradlew :clean :build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :clean :build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+sudo apt update
+sudo apt upgrade
+pkill -9 firefox
+grep -nr "assertk" .
+cd /usr/lib/jvm
+open .
+nemo
+nemo .
+jps
+sudo apt install openjdk-8-jdk-headless 
+jps
+pkill -f GradleDaemon
+./gradlew :clean --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :clean :build -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+pwd
+cd build
+cd ..
+cd buildSrc/
+ld
+ls
+gradle :mpapt:install
+cd ..
+gradle :annotations:install
+gradle :annotations:build
+cd annotations/
+gradle build
+cd ..
+./gradlew :clean :build -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+cd example/
+./gradlew :clean :build -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+cd ..
+gradle
+./gradlew :clean :build -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew clean build -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew
+./gradlew :gradle-plugin:build
+cd gradle-plugin/
+gradle install
+gradle :install
+gradle build -p gradle-plugin
+cd ..
+gradle build -p gradle-plugin
+gradle :gradle-plugin:install
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :gradle-plugin:intall
+/gradlew :gradle-plugin:build
+./gradlew :gradle-plugin:build
+./gradlew :example:build
+./gradlew clean :example:build
+./gradlew clean build
+gradle install
+gradle build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-X-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xagentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5006\,server=y\,suspend=n"
+./gradlew build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5006\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5006\,server=y\,suspend=n"
+./gradlew build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.native.jvmArgs="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5006\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.native.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5006\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.native.jvmArgs=-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.native.jvmArgs="X-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.native.jvmArgs="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.native.jvmArgs="X-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.native.jvmArgs="-X-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006"
+./gradlew build --verbose
+./gradlew help
+./gradlew build
+jps
+./gradlew stop
+./gradlew build
+./gradlew build --info
+./gradlew --stop
+./gradlew build
+jps
+sudo apt install openjdk-8-jdk-headless 
+sudo apt install jps
+jps
+sudo apt-get install openjdk-8-jdk
+sudo apt-get install openjdk-8*
+jps
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradle --stop
+./gradlew --stop
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+gpg --gen-key
+keepassx
+./gradlew publish
+gpg --full-generate-key
+gpg --gen-key
+gpg --export-secret-keys B8B2E090023F9FFC1F7C5555131A6BE1FD2A9D74 > sonatype_upload.key
+gpg --gen-key
+gpg --keyserver hkp://pool.sks-keyservers.net --send-keys '/home/jens/Documents/MavenCentral/96A9E1E3165121A90C2F920D3288A971719FFCBC.key' 
+gpg --keyserver hkp://pool.sks-keyservers.net --send-keys 96A9E1E3165121A90C2F920D3288A971719FFCBC
+gpg --keyserver hkp://pool.sks-keyservers.net --send-keys 96A9E1E
+gpg --gen-key
+gpg --export-secret-keys A0C3CB6D > sonatype_upload.key
+gpg --keyserver hkp://pool.sks-keyservers.net --send-keys A0C3CB6D
+gpg
+gpg -version
+sudo gpg2 --export-secret-keys -o secring.gpg
+pwd
+./gradlew :example:clean :example:build
+./gradlew build
+./gradlew :annotations:install
+./gradlew :annotations:publishToMavenLocal
+./gradlew :kotlin-plugn:build
+./gradlew :kotlin-plugin:build
+./gradlew :annotations:publishToMavenLocal
+./gradlew :kotlin-plugin:build
+./gradlew :kotlin-compiler-native-plugin:build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+chmod +x secring.gpg 
+sudo chmod +x secring.gpg 
+sudo chown -R jens secring.gpg 
+./gradlew :annotations:publishToMavenLocal
+./gradlew :kotlin-plugin:build
+./gradlew :kotlin-compiler-native-plugin:build
+ls
+git rm -r build
+cd ,,
+cd..
+ls
+cd ..
+ls
+git rm -r build
+git commit -m "Remove build folder"
+cd..
+cd ..
+ls
+cd build
+ls
+cd ..
+cd buildSrc/
+ls
+git rm -r build
+git rm -r build -f
+git commit -m "Remove build folder"
+cd ..
+cd mpapt-runtime/
+ls
+git rm -r build
+git rm -r build -f
+git commit -m "Remove build folder"
+cd ..
+cd kotlin-plugin-shared/
+ls
+git rm -r build
+git rm -r build -f
+git commit -m "Remove build folder"
+cd ..
+cd buildSrc/
+ls
+git rm -r gradle
+git rm -r .gradle
+git rm -r .gradle -f
+git commit -m "Remove build folder"
+cd ..
+cd demoProject/
+ls
+git rm -r .gradle
+git commit -m "Remove build folder
+git commit -m "Remove build folder"
+git checkout -b feilfeilundfeil-master master
+git checkout -b foso-master master
+git rm -r buildSrc/build
+git rm -r buildSrc/build/
+cd buildSrc/
+git rm -r build
+git rm -r /build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+cd ..
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradle build
+./gradlew build
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew build
+./gradlew :ktorfit-annotations:publishToMavenLocal
+./gradlew :ktorfit-compiler:build
+cd buildSrc/
+cd ..
+history
+history
+git rm -r buildSrc/build
+git rm -r buildSrc/build/
+git rm -r /buildSrc/
+git rm -r buildSrc/.gradle
+git rm -r .idea
+git rm -r .idea -f
+git rm -r .gradle
+git rm -r buildSrc/.gradle
+git rm -r buildSrc/.gradle -f
+python --version
+pip install --upgrade pip
+sudo pip install --upgrade pip
+python get-pip.py
+mkdocs serve
+export LC_ALL=de_DE.utf-8
+export LANG=de_DE.utf-8
+mkdocs serve
+pip install -U mkdocs
+sudo pip install -U mkdocs
+mkdocs serve
+sudo apt remove mkdocs
+sudo pip install -U mkdocs
+mkdocs
+sudo apt install mkdocs
+cd docs
+sudo apt install mkdocs
+mkdocs gh-deploy
+python3 mkdocs gh-deploy
+./gradlew :app:clean :app:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./studio.sh 
+./gradlew :app:clean :app:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :app:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./studio.sh 
+grep -nr "klingenberg" .
+grep -nr "bielefeld" .
+'/home/jens/Downloads/clion-2019.2.2/bin/clion.sh' 
+sudo update
+sudo apt update
+sudo apt upgrade
+jad
+./jad
+./jad '/home/jens/Code/2019/SwiftIdea/clion-swift/lib/swift/com/jetbrains/swift/parser/SwiftParser.class' 
+./jad '/home/jens/Downloads/SwiftParser.jad' 
+jad
+sudo apt install jad
+jd-gui
+jar '/home/jens/Downloads/jd-gui-1.6.3.jar' 
+java -jar '/home/jens/Downloads/jd-gui-1.6.3.jar' 
+java
+sudo apt install openjdk-8-jre-headless 
+./studio.sh 
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./studio.sh 
+git rm -r --cached build
+git rm -r --cached .gradle
+git rm -r --cached build
+git rm -r --cached .gradle
+repo sync -j8 -c
+history
+cd buildSrc/
+git rm -r --cached .gradle
+cd compiler-plugin/
+cd gradle-plugin/
+git rm -r --cached build
+cd ..
+./gradlew clean build
+kotlinc-native
+./gradlew uploadArchives
+./gradlew ui:uploadArchives
+ls
+cd ..
+./gradlew ui:uploadArchives
+./gradle ui:uploadArchives
+./studiow
+repo sync -j8 -c
+repo status
+repo sync -j8 -c
+'/home/jens/Code/IDE/android-studio/bin/studio.sh' 
+./studiow
+repo sync -j8 -c
+cd  /frameworks/support/ui
+cd frameworks/support/ui
+nemo .
+./studio.sh 
+git push
+git commit
+git rm androidx_prebuilts/out/ui/build/support_repo/androidx/compose/compose-plugin-ide/1.0.0-alpha01/compose-plugin-ide-1.0.0-alpha01-sources.jar
+git commit
+git rm androidx_prebuilts/out/ui/build/support_repo/androidx/ui/ui-material-demos/1.0.0-alpha01/ui-material-demos-1.0.0-alpha01.pom
+git commit
+./kotlinc
+./studio.sh 
+./kotlin -he
+./kotlin -help
+kotlinc-native
+./kotlinc-native
+./kotlinc-native -help
+./konanc
+./kotlinc
+./kotlinc -help
+clear
+./kotlinc -help
+./studio.sh 
+gradlew clean assemble
+./gradlew clean assemble
+udo apt install curl git clang libsqlite3-dev libblocksruntime-dev libncurses5-dev
+sudo apt install curl git clang libsqlite3-dev libblocksruntime-dev libncurses5-dev
+./gradlew -t :shared:assemble
+yarn install
+./gradlew -t :shared:assemble
+yarn haul start --platform android
+./studio.sh
+./studiow
+./studio.sh 
+repo sync -j8 -c
+./gradlew uploadArchives
+sudo apt-get install libgtk-3-dev
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+gradle wrapper
+../gradlew assemble
+gradle
+gradle wrapper
+../gradlew assemble
+gradle wrapper
+gradle
+./gradlew assemble
+./gradlew assemble --stacktrace
+../gradlew runReleaseExecutableGtk
+cd gtk/
+../gradlew runReleaseExecutableGtk
+../gradlew assemble
+./gradlew bundle
+sh ./configure
+./configure
+'/home/jens/Code/2019/CrackAttack/crack-attack/configure.ac' 
+sudo '/home/jens/Code/2019/CrackAttack/crack-attack/configure.ac' 
+sh '/home/jens/Code/2019/CrackAttack/crack-attack/configure.ac' 
+'/home/jens/Code/2019/CrackAttack/crack-attack/autogen.sh' 
+ls
+./kotlinc-js
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc' 
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-js' 
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-meta' 
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-meta' '/home/jens/Downloads/kotlinc (2)/bin/hello.kt' 
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-meta' '/home/jens/Downloads/kotlinc (2)/bin/hello.kt' -d .
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-meta' -help
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-meta' -version
+git fetch
+export KOTLIN_COMPILER=org.jetbrains.kotlin.cli.metadata.K2MetadataCompiler
+export JDK_16=JAVA_HOME
+export JDK_16=$JAVA_HOME
+export JDK_17=$JAVA_HOME
+export JDK_9=$JAVA_HOME
+echo JDK_9
+echo $JDK_9
+echo $JDK_16
+export JDK_1.6=$JAVA_HOME
+export JDK_16=$JAVA_HOME
+export $JAVA_HOME
+sudo apt update
+sudo apt install oracle-java9-installer
+sudo apt install openjdk-9-jre
+java -version
+sudo apt install oracle-java9-installer
+sudo apt install default-jre default-jdk
+sudo apt install openjdk-11-jre-headless
+echo JDK_11
+echo $JDK_11
+apt-cache search oracle-java9
+sudo apt-get install oracle-java9-installer
+sudo dpkg -i oracle-java8-installer_8u51+8u51arm-1-webupd8-0_all.deb
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo add-apt-repository ppa:openjdk-r/ppa && sudo apt-get update -q && sudo apt install -y openjdk-11-jdk
+apt-get install default-jdk
+sudo apt-get install default-jdk
+sudo apt install openjdk-11-jdk
+java -version
+sudo apt install openjdk-11-jre-headless
+sudo apt install oracle-java11-installer
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt install oracle-java11-installer
+sudo apt install oracle-java11-installer-local
+sudo apt-get install openjdk-12-jre 
+echo $JDK_9
+nano ~/.bashrc
+source ~/.bashrc
+echo $JDK_9
+echo $JDK_10
+java 9
+javac 9
+nano ~/.bashrc
+source ~/.bashrc
+echo $JDK_10
+echo $JDK_9
+./gradlew dist
+'/home/jens/Code/2019/kotlin/dist/kotlinc/bin/kotlinc-metadata' 
+'/home/jens/Code/2019/kotlin/dist/kotlinc/bin/kotlinc-metadata' -version
+'/home/jens/Code/2019/kotlin/dist/kotlinc/bin/kotlinc-metadata' -help
+'/home/jens/Code/2019/kotlin/dist/kotlinc/bin/kotlinc-metadata' '/home/jens/Downloads/kotlinc (2)/bin/hello.kt' 
+'/home/jens/Code/2019/kotlin/dist/kotlinc/bin/kotlinc-metadata' '/home/jens/Downloads/kotlinc (2)/bin/hello.kt' -d .
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-js' 
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-js' .help
+'/home/jens/Downloads/kotlinc (2)/bin/kotlinc-js' -help
+./gradlew -t :shared:assemble
+yarn install
+./gradlew -t :shared:assemble
+yarn install
+./gradlew -t :shared:assemble
+yarn haul start --platform android
+yarn install
+yarn start
+yarn haul start --platform android
+cd shared/
+yarn haul start --platform android
+cd ..
+yarn haul start --platform android
+yarn --help
+yarn why
+yarn upgrade
+yarn haul start --platform android
+'/home/jens/Code/IDE/android-studio/bin/studio.sh' 
+repo sync
+'/home/jens/Downloads/android-studio/bin/studio.sh' 
+'/home/jens/Code/IDE/android-studio/bin/studio.sh' 
+'/home/jens/Code/IDE/android-studio/bin/studio.png' 
+'/home/jens/Code/IDE/android-studio/bin/studio.sh' 
+'/home/jens/Downloads/android-studio/bin/studio.sh' 
+repo sync
+sudo apt-get install cinnamon-desktop-environment
+sudo apt update
+sudo apt upgrade
+cinnamon
+cinnamon update
+cinnamon -update
+cinnamon -help
+cinnamon --version
+sudo apt update cinnamon
+sudo apt remove cinnamon
+cinnamon
+sudo apt install cinnamon
+sudo add-apt-repository ppa:embrosyn/cinnamon
+sudo apt update && sudo apt install cinnamon-desktop
+sudo apt update cinnamon-desktop
+sudo apt update && sudo apt install cinnamon-desktop
+sudo apt install cinnamon-desktop
+sudo add-apt-repository ppa:embrosyn/cinnamon
+sudo apt update && sudo apt install cinnamon-desktop
+cinnamon --version
+lspci -vnn | grep VGA
+sudo ubuntu-drivers autoinstall
+sudo apt update
+sudo apt upgrade
+sudo ubuntu-drivers autoinstall
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+sudo apt upgrade
+sudo apt-get install nvidia-370
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get install software-center
+'/home/jens/Downloads/android-studio/bin/studio.sh' 
+gradle
+repo init -u https://android.googlesource.com/platform/manifest -b studio-master-dev
+repo sync -c -j4 -q
+repo init -u https://android.googlesource.com/platform/manifest -b studio-master-dev
+repo sync -c -j4 -q
+'/home/jens/Code/IDE/android-studio/bin/studio.sh' 
+'/home/jens/Code/IDE/as4/android-studio/bin/studio.sh' 
+git clone https://android.googlesource.com/platform/frameworks/layoutlib
+./studio.sh 
+gradle build
+/bin/bash  /home/jens/Code/AndroidX/studio-master-dev/tools/adt/idea/designer/studio_coverage_design.sh 
+git rm --cached -r .idea
+./studio.sh 
+./gradlew  :libs:layoutlib:publishMavenJavaPublicationToMavenRepository
+'/home/jens/Code/IDE/android-studio/bin/studio.sh' 
+/bin/sh  /home/jens/Code/2019/android/get_aosp_changes.sh 
+'/home/jens/Downloads/NVIDIA-Linux-x86_64-440.31.run' 
+sudo '/home/jens/Downloads/NVIDIA-Linux-x86_64-440.31.run' 
+sudo apt-get install kubuntu-desktop 
+dpkg --get-selections | grep hold
+sudo apt update
+sudo apt upgrade
+sudo apt-get install kubuntu-desktop 
+sudo apt install software-properties-kde
+sudo apt upgrade
+sudo apt install xfce
+sudo apt-get install xubuntu-desktop 
+xfce4-panel
+sudo apt install albert
+curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
+echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_19.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
+apt update
+sudo apt update
+sudo apt install albert
+./studiow 
+repo init -u https://android.googlesource.com/platform/manifest -b androidx-master-dev
+repo sync -j8 -c
+./studiow 
+echo $ANDROID_HOME
+nano ~/.bashrc
+sudo -H gedit /etc/environment
+export ANDROID_HOME=$HOME/Code/Android/Sdk
+echo $ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/tools
+echo $ANDROID_HOME
+'/home/jens/Code/IDE/android-studio/bin/studio.sh'
+repo sync -j8 -c
+repo
+repo update
+repo upgrade
+repo help
+sudo upgrade repo
+sudo apt upgrade repo
+repo sync -j8 -c
+gradle init
+git init
+./studio.sh 
+./gradlew build
+./gradlew build
+pkill firefox
+snap
+snap install intellij-idea-community
+snap install intellij-idea-community --classic
+intellij-idea-community
+./gradlew :app:clean :app:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+repo sync -j8 -c
+git clone https://github.com/vsch/idea-multimarkdown.git
+git pull
+./idea.sh 
+./studiow
+echo $Android_home
+echo $ANDROID_HOME
+'/home/jens/Code/IDE/android-studio/bin/studio.sh'
+mv libstdc++ libstdc++.bak
+sudo apt-get install nvidia-352 
+sudo apt remove cinnamon
+sudo apt autoremove
+./gradlew tasks -Dorg.gradle.debug=true --no-daemon
+./idea.sh 
+cd hello-world
+./gradlew clean :use-plugin:shadowJar
+studiow
+./studiow
+repo sync -j8 -c
+echo $ANDROID_SDK_ROOT
+echo $ANDROID_HOME
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+nano ~/.bash_profile
+https://github.com/Foso/Jetpack-Compose-Playground.wiki.git
+git clone https://github.com/Foso/Jetpack-Compose-Playground.wiki.git
+repo sync -j8 -c
+apktool -d dev.firebase.appdistribution
+apktool -d dev.firebase.appdistribution.apk
+apktool -d dev.firebase.appdistribution.apk -o .
+apktool d dev.firebase.appdistribution.apk -o .
+apktool d dev.firebase.appdistribution.apk
+apktool d dev.firebase.appdistribution.apk -o app
+https://github.com/jblorenzo/flutter-kotlin-native-example
+repo sync -j8 -c
+sudo apt update
+sudo apt upgrade
+apktool -d com.fesforward.koala.apk 
+apktool d com.fesforward.koala.apk 
+grep -n . "waren"
+grep "Waren" -n .
+grep "Waren" -n 
+grep "Waren" 
+history
+grep -nr "api" .
+sudo apt upgrade
+sudo apt update
+sudo apt upgrade
+sudo apt-get install libgtk-3-dev
+git status
+git add .
+git status
+git commit
+git status
+sudo apt-get install libcurl4-openssl-dev
+./configure
+autoconf
+git
+git status
+./configure
+make
+make install
+'/home/jens/Code/2019/CrackAttack/crack-attack/autogen.sh'
+git
+git add .
+git status
+git fetch
+git clone https://github.com/bjorn/crack-attack.git
+cd crack-attack/
+./configure
+autoconf
+configure
+autoconf
+make
+sudo make install
+make
+./configure
+make
+sudo apt-get install freeglut3-dev
+make
+make install
+make
+sudo apt-get install libgtk2.0-dev
+apt-get install libsdl2-dev
+sudo apt-get install libsdl2-dev
+git clone https://github.com/muzaffar/gtk-c-tutorial.git
+example
+./example
+autoconf
+./configure
+make
+CC=c89 CFLAGS=-O2 LIBS=-lposix ./configure
+make
+autoconf
+sudo apt-get install qtcreator 
+sudo apt-get install crack-attack
+sudo apt-get install eclipse 
+eclipse
+eclipse -clean
+sudo apt remove eclipse
+eclipse
+sudo apt remove eclipse
+sudo apt autoremove
+sudo apt-get purge eclipse
+sudo apt install default-jre
+sudo snap install --classic eclipse
+eclipse
+sudo update-alternatives --config java
+autoconf
+./configure
+make
+sudo apt-get install libgtk-3-dev
+../gradlew assemble
+./gradlew assemble
+ls
+./gradlew assemble
+sudo apt-get install libgtk-3-dev
+sudo cp /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h /usr/include/glib-2.0/glibconfig.h
+sudo apt-get install libcurl-dev
+sudo apt install libjson-glib-dev
+sudo apt-get install libcurl-dev
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install libcurl4-gnutls-dev
+curl
+echo curl
+echo $curl
+cd /usr/include
+sudo apt install anjuta gnome-builder glade devhelp
+ffmpeg -i "MOV00100.3GP" -sameq -acodec copy  test.mp4 
+ffmpeg -i MOV00100.3GP -ar 22050 test.avi
+ffmpeg -i MOV00100.3GP -ar 22050 test.mp4
+ffmpeg -i MOV0078.3GP -ar 22050 test78.mp4
+ffmpeg -i MOV00078.3GP -ar 22050 test78.mp4
+grap -nr "dagger" .
+grep -nr "dagger" .
+clear
+grep -nr "@Inject" .
+grep -nr "@Component" .
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+git
+git status
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :create-plugin:clean :create-plugin:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+./gradlew :use-plugin:clean :use-plugin:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xde~bug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+autoconf
+./configure
+git clone https://github.com/bjorn/crack-attack.git
+git pull
+git status
+./configure
+autoconf
+make
+git rollback
+git revert
+make
+make install
+make
+automake
+make
+./configure; make; make install
+make check
+make
+make --help
+make x86_64-pc-linux-gnu
+make prog
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+sudo dpkg --list | egrep -i --color 'linux-image|linux-headers'
+sudo apt --purge autoremove
+dpkg --list | egrep -i 'linux-image|linux-headers' | awk '/ii/{ print $2}' | egrep -v "$i"
+grep linux-image
+sudo apt-get autoclean
+dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | xargs sudo apt-get -y purge
+dpkg --list | egrep -i 'linux-image|linux-headers' | awk '/ii/{ print $2}' | egrep -v "$i"
+sudo dpkg --list | egrep -i --color 'linux-image|linux-headers'
+dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' 
+dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' |
+sudo dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d'
+dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d'
+uname -r 
+sudo dpkg --list 'linux-image*'|awk '{ if ($1=="ii") print $2}'|grep -v `uname -r`
+sudo apt-get autoremove
+sudo dpkg --list 'linux-image*'|awk '{ if ($1=="ii") print $2}'|grep -v `uname -r`
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+uname -r
+dpkg --list | grep linux-image
+sudo dpkg --list | egrep -i --color 'linux-image|linux-headers' | wc -l
+dpkg --list | egrep -i 'linux-image|linux-headers' | awk '/ii/{ print $2}' | egrep -v "$i"
+apt-mark showauto 'linux-image-.*'
+dpkg -l | grep -E 'linux-image-[0-9]+' | grep -Fv $(uname -r)
+sudo apt autoremove
+sudo apt-get install byobu
+sudo purge-old-kernels
+sudo apt-get remove linux-image-4.4.* -y && \
+sudo apt-get remove linux-image-4.4.* -y 
+sudo apt-get remove linux-headers-4.4.* -y && sudo apt-get remove linux-image-4.4.* -y && sudo apt-get autoremove -y && sudo update-grub
+dpkg -l | grep -E 'linux-image-[0-9]+' | grep -Fv $(uname -r)
+purge-old-kernels 
+dpkg -l 'linux-*' | sed '/^ii/!d;/hwe/d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d'
+dpkg -l | grep linux-image
+dpkg -l linux-image-\* | grep ^ii
+dpkg -l | grep -E 'linux-image-[0-9]+' | grep -Fv $(uname -r)    sudo apt autoremove --purge
+dpkg -l 'linux-*' | sed '/^ii/!d;/hwe/d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | xargs 
+dpkg -l 'linux-[ihs]*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\([-0-9]*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | tee zu_entfernende_Kernel 
+ls
+cat zu_entfernende_Kernel 
+pwd
+dpkg -l 'linux-[ihs]*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\([-0-9]*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | tee zu_entfernende_Kernel 
+sudo apt-get -s purge linux-headers-3.8.0-* linux-image-3.8.0-*
+sudo apt-get -s purge linux-headers-4.4.0-* linux-image-4.4.0-*
+sudo apt-get remove linux-headers-4.4.* -y && sudo apt-ge sudo apt-get autoremove -y && sudo update-grub
+sudo apt-get remove linux-headers-4.4.* -y && sudo apt-get autoremove -y && sudo update-grub
+dpkg -l 'linux-[ihs]*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\([-0-9]*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' 
+dpkg -l linux-image-\* | grep ^ii
+dpkg -l | grep linux-image
+sudo apt-get -s purge linux-headers-4.4.0-* linux-image-4.4.0-*
+sudo apt-get -y purge
+sudo apt-get -s purge linux-headers-4.4.0-* linux-image-4.4.0-*
+dpkg -l linux-{image,headers}-* | awk '/^ii/{print $2}'
+sudo apt-get purge $(dpkg-query -W -f'${Package}\n' 'linux-*' |
+sed -nr 's/.*-([0-9]+(\.[0-9]+){2}-[^-]+).*/\1 &/p' | linux-version sort | 
+awk '($1==c){exit} {print $2}' c=$(uname -r | cut -f1,2 -d-))
+dpkg -l linux-{image,headers}-* | awk '/^ii/{print $2}'
+dpkg -l | grep linux-image
+sudo apt-get purge linux-image-4.15.0-69.78-generic
+sudo apt-get purge linux-image-4.15.0-69.78
+sudo apt-get purge linux-image-4.15.0-69
+dpkg -l | grep linux-image
+sudo apt-get purge linux-image-4.15.0-70
+history
+uname -r
+git clone https://github.com/BenjaminRi/Banania.git
+make
+sudo apt install install gcc-c++
+sudo apt install gcc-c++
+make
+make install
+git clone https://github.com/Nico01/ded.git
+sudo apt install dvd
+sudo apt install ded
+objdump
+objdump -Slx Banania.exe
+objdump -Slx BANANIA.EXE
+objdump -d BANANIA.EXE
+'/home/jens/Downloads/android-studio/bin/studio.sh'
+git clone https://github.com/BenjaminRi/Banania.git
+'/home/jens/Downloads/android-studio/bin/studio.sh'
+grep -nr "simplexml" .
+sudo apt update
+sudo apt upgrade
+./gradle build
+./gradlew build
+./gradlew -t web:webpack-run
+./gradlew -t :webpack-run
+./gradlew -t :webpack-stop
+npm install
+java --version
+sudo apt-get remove --purge openjdk* java-common default-jdk
+make
+cargo install cargo-flutter
+sudo apt install cargo
+apt-get install llvm clang linux-headers-"$(uname -r)" # or the equivalent for your OS
+sudo apt-get install llvm clang linux-headers-"$(uname -r)" # or the equivalent for your OS
+sudo apt-get install llvm clang linux-headers-"$(uname -r)"
+sudo rustup component add --toolchain=nightly rust-src rustfmt
+sudo apt-get rustup component add --toolchain=nightly rust-src rustfmt
+'/home/jens/Downloads/android-studio/bin/studio.sh'
+sudo apt update
+sudo apt upgrade
+git add .
+yarn install
+sudo apt-get remove --purge openjdk* java-common default-jdk
+sudo apt-get autoremove --purge
+sudo update-alternatives --config java
+sudo apt-get install openjdk-8-jdk
+sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
+cd  /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/cacerts
+cd  /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/
+open .
+ls
+nano cacerts 
+update-ca-certificates -f
+sudo update-ca-certificates -f
+keytool -genkey -alias foo -keystore cacerts -dname cn=test -storepass changeit -keypass changeit
+sudo keytool -genkey -alias foo -keystore cacerts -dname cn=test -storepass changeit -keypass changeit
+which java
+java --version
+sudo update-java-alternatives -a
+sudo /var/lib/dpkg/info/ca-certificates-java.postinst configure
+sudo update-alternatives --config java
+sudo apt-get install openjdk-8-jdk
+sudo apt-get remove openjdk-8-jdk
+sudo apt-get install openjdk-8-jdk
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3a%2F%2Fwww.oracle.com%2Ftechnetwork%2Fjava%2Fjavase%2Fdownloads%2Fjdk8-downloads-2133151.html; oraclelicense=accept-securebackup-cookie;" "https://download.oracle.com/otn-pub/java/jdk/8u191-b12/2787e4a523244c269598db4e85c51e0c/jdk-8u191-linux-x64.tar.gz"
+wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-linux-x64.rpm
+ubuntu
+ubuntu-version
+/usr/bin/printf '\xfe\xed\xfe\xed\x00\x00\x00\x02\x00\x00\x00\x00\xe2\x68\x6e\x45\xfb\x43\xdf\xa4\xd9\x92\xdd\x41\xce\xb6\xb2\x1c\x63\x30\xd7\x92' > /etc/ssl/certs/java/cacerts
+/var/lib/dpkg/info/ca-certificates-java.postinst configure
+which java
+sudo apt-get install openjdk-8-jdk
+sudo apt-get remove openjdk-8-jdk
+gksu thunar /usr/lib/jvm
+which java
+sudo apt-get install openjdk-8-jdk
+which java
+sudo apt-get install openjdk-8-jdk
+sudo apt-get remove openjdk-8-jdk
+sudo apt-get install openjdk-8-jdk
+cd; cd -
+sudo apt-get install openjdk-8-jdk
+sudo apt-get remove openjdk-8-jdk
+sudo apt-get install openjdk-8-jdk
+sudo gedit . bashrc.
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup component add rust-src
+sudo apt install rustup
+sudo apt remove rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -y
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo apt remove Rust
+rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl -y --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl -y --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -y
+cd /usr/lib
+ls
+sudo rm rustlib
+sudo rm /rustlib
+ls
+clear
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo apt remove rustc
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup component add rust-src
+rustup
+sudo rustup
+rust
+rustc
+sudo rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+rustup
+rustup component add rust-src
+./gradlew :example:clean :example:build --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket\,address=5005\,server=y\,suspend=n"
+history
+repo sync -j8 -c
+'/home/jens/Code/AndroidX/frameworks/support/ui/studiow'
+history
+'/home/jens/Code/AndroidX/frameworks/support/ui/studiow'
+repo init -u https://android.googlesource.com/platform/manifest -b androidx-master-dev
+repo sync -j8 -c
+history
+'/home/jens/Downloads/android-studio/bin/studio.sh'
+'/home/jens/Code/IDE/android-studio/bin/studio.sh'
+adb shell am start -d notesapp://notes/{noteId}
+vi ~/.bash_profile
+adb
+adb shell am start -a android.intent.action.VIEW -d notesapp://notes/1
+adb shell am start -d notesapp://notes/{noteId}
+adb
+adb start-server
+adb kill-server
+adb start-server
+sudo remove adb
+adb start-server
+adb version
+adb start-server
+gedit /tmp/adb.1000.log
+adb shell am start -d notesapp://notes/{noteId}
+which adb
+adb devices
+adb shell am start -d notesapp://notes/{noteId}
+adb shell am start -d notesapp://notes/2
+adb shell am start -d notesapp://notes/1
+adb shell am start -a android.intent.action.VIEW -d "example://gizmos" com.example.myapplication
+adb shell am start -a android.intent.action.VIEW -d "example://gizmos"
+adb shell am start -d http://www.example.com/gizmos?data=12345
+adb shell am start -d http://www.example.com/gizmos
+./studio.sh 
+'/home/jens/Downloads/android-studio/bin/studio.sh'
+adb shell am start -d notesapp://notes/3

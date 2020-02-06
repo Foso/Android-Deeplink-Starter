@@ -1,0 +1,25 @@
+<idea-plugin>
+  <version>1.0</version>
+  <change-notes>
+     Initial release</change-notes>
+  <idea-version since-build="191.7479" until-build="191.*"/>
+  <id>de.jensklingenberg.ads</id>
+  <name>Android DeepLink Starter</name>
+  <vendor email="mail@jensklingenberg.de" url="http://www.jensklingenberg.de">Jens Klingenberg</vendor>
+  <description>
+    Adds a menu entry (Dukat: Generate Kotlin external declarations) to the Tools Menu and the context menu of files, to trigger Dukat to generate KotlinJS Wrapper
+
+    You still need to install Dukat(https://github.com/Kotlin/dukat)
+    The plugin works only on d.ts files
+    </description>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>org.jetbrains.android</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <codeInsight.lineMarkerProvider language="XML" implementationClass="de.jensklingenberg.ui.deeplinkStarter.DeepLinkLineMarkerProvider"/>
+  </extensions>
+  <actions>
+    <action id="ComposedeaAction" icon="/icons/link_icon.svg" class="de.jensklingenberg.actions.ToolsMenuAction" text="Android Deeplink Starter">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9483541657000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/app/build.gradle" value="3009809802" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="252431016" />
+        <entry key="$PROJECT_DIR$/gradle.properties" value="226750358" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="563151424" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="498030123" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+</project>
