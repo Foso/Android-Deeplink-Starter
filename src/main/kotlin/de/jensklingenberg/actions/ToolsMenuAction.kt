@@ -8,7 +8,7 @@ import de.jensklingenberg.ui.deeplinkStarter.DeepLinkStarterView
 class ToolsMenuAction : AnAction() {
 
     override fun actionPerformed(anActionEvent: AnActionEvent) {
-        DeepLinkStarterView("", DeepLinkStarterContract.Mode.CUSTOM).showAndGet()
+        DeepLinkStarterView(DeepLinkStarterContract.Mode.CUSTOM).showAndGet()
     }
 
 }

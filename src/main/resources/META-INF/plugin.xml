@@ -18,7 +18,7 @@
     </extensions>
 
     <actions>
-        <action id="ComposedeaAction"
+        <action id="ToolsMenuAction"
                 icon="/icons/link_icon.svg"
                 class="de.jensklingenberg.actions.ToolsMenuAction"
                 text="Android Deeplink Starter">

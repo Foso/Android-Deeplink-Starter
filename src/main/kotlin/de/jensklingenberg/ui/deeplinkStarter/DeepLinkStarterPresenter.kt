@@ -2,6 +2,8 @@ package de.jensklingenberg.ui.deeplinkStarter
 
 import de.jensklingenberg.model.Argument
 import de.jensklingenberg.model.ArgumentSourceItem
+import java.awt.Desktop
+import java.net.URI
 
 
 class DeepLinkStarterPresenter(private val view: DeepLinkStarterContract.View) : DeepLinkStarterContract.Presenter,
@@ -14,7 +16,7 @@ class DeepLinkStarterPresenter(private val view: DeepLinkStarterContract.View) :
     override fun onCreate() {}
 
     override fun onDestroy() {}
-//    <depends>org.jetbrains.android</depends>
+
     override fun loadData(appUriValue: String?, mode: DeepLinkStarterContract.Mode) {
 
         //Find the variables with {}
@@ -24,7 +26,7 @@ class DeepLinkStarterPresenter(private val view: DeepLinkStarterContract.View) :
         this.appUriValue = appUriValue ?: ""
         argsListItems = listOf(
             ArgumentSourceItem(
-                Argument("DeeplinkValue", this.appUriValue), this, true
+                Argument("DeeplinkValue", this.appUriValue), this
             )
         ) + argumentNames.map {
             ArgumentSourceItem(
@@ -32,7 +34,7 @@ class DeepLinkStarterPresenter(private val view: DeepLinkStarterContract.View) :
             )
         } + listOf(
             ArgumentSourceItem(
-                Argument("Launch Flags", ""), this, false
+                Argument("Launch Flags", ""), this
             )
         )
         view.setListData(argsListItems)
@@ -51,7 +53,19 @@ class DeepLinkStarterPresenter(private val view: DeepLinkStarterContract.View) :
         Runtime.getRuntime().exec(deeplinkCmd)
     }
 
+    override fun onReload() {
+        loadData(appUriValue, this.mode)
+    }
+
+    override fun onHelpButtonClicked() {
+        Desktop.getDesktop().browse(URI("https://github.com/Foso/Android_Deeplink_Starter"))
+
+    }
+
     override fun onTextChanged(sourceItem: ArgumentSourceItem, text: String) {
+        if(sourceItem.argument.name == "DeeplinkValue"){
+            appUriValue=text
+        }
         val newArg = sourceItem.argument
 
         argsListItems = argsListItems.map {
@@ -63,9 +77,7 @@ class DeepLinkStarterPresenter(private val view: DeepLinkStarterContract.View) :
         }
     }
 
-    override fun onRefresh(appUri: String) {
-        loadData(appUri, this.mode)
-    }
+
 
 
 }

@@ -26,16 +26,6 @@
           <enabled value="true"/>
         </properties>
       </component>
-      <component id="917e2" class="javax.swing.JButton" binding="refreshButton">
-        <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <horizontalAlignment value="0"/>
-          <icon value="icons/refresh_black_18dp.png"/>
-          <text value=""/>
-        </properties>
-      </component>
     </children>
   </grid>
 </form>

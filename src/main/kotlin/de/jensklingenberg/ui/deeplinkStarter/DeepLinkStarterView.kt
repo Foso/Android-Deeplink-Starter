@@ -13,12 +13,18 @@ import javax.swing.JComponent
 import javax.swing.JPanel
 
 
-class DeepLinkStarterView(appUriValue: String, private val mode: DeepLinkStarterContract.Mode) : DialogWrapper(true),
+class DeepLinkStarterView(
+    mode: DeepLinkStarterContract.Mode,
+    appUriValue: String=""
+) : DialogWrapper(true),
     DeepLinkStarterContract.View {
 
     lateinit var myPanel: JPanel
     lateinit var sampleList: JBScrollPane
     lateinit var openDeeplinkButton: JButton
+    lateinit var reloadBtn: JButton
+    lateinit var helpBtn: JButton
+
 
     private val presenter: DeepLinkStarterContract.Presenter = DeepLinkStarterPresenter(this)
 
@@ -32,6 +38,17 @@ class DeepLinkStarterView(appUriValue: String, private val mode: DeepLinkStarter
         openDeeplinkButton.onClick {
             presenter.onOpenDeeplink()
         }
+
+        reloadBtn.onClick {
+            presenter.onReload()
+        }
+
+        helpBtn.onClick {
+            presenter.onHelpButtonClicked()
+        }
+
+
+
     }
 
     override fun createCenterPanel(): JComponent? = myPanel

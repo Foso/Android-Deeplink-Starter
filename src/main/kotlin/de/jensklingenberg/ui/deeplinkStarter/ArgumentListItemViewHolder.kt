@@ -14,18 +14,11 @@ class ArgumentListItemViewHolder(sourceItem: ArgumentSourceItem) :
     lateinit var panel1: JPanel
     lateinit var nameLbl: JLabel
     lateinit var valueTF: JTextField
-    lateinit var refreshButton: JButton
 
     init {
         sourceItem.argument.let { argument ->
             nameLbl.text = argument.name
 
-            if (!sourceItem.showRefresh) {
-                refreshButton.hide()
-            }
-            refreshButton.onClick {
-                sourceItem.listener?.onRefresh(valueTF.text)
-            }
             valueTF.text = argument.value
 
             valueTF.document.addDocumentListener(object : DocumentListener {
@@ -52,7 +45,6 @@ class ArgumentListItemViewHolder(sourceItem: ArgumentSourceItem) :
 
     interface Listener {
         fun onTextChanged(sourceItem: ArgumentSourceItem, text: String)
-        fun onRefresh(appUri: String)
     }
 
     override fun getComponent(): JComponent = panel1

@@ -13,6 +13,8 @@ interface DeepLinkStarterContract {
         fun onDestroy()
         fun loadData(appUriValue: String?, mode: Mode)
         fun onOpenDeeplink()
+        fun onReload()
+        fun onHelpButtonClicked()
     }
 
     enum class Mode {
