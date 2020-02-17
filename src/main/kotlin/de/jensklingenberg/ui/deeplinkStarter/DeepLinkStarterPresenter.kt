@@ -34,7 +34,7 @@ class DeepLinkStarterPresenter(private val view: DeepLinkStarterContract.View) :
             )
         } + listOf(
             ArgumentSourceItem(
-                Argument("Launch Flags", ""), this
+                Argument("Launch Flags:", ""), this
             )
         )
         view.setListData(argsListItems)

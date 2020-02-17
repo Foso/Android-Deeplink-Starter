@@ -2,38 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <h3>This plugin adds an alternative UI to start deeplinks</h3>
+    <h3>This plugin adds an alternative UI to start Android deeplinks</h3>
     <br>
 
     <h1>Features</h1>
 
-    <h2>Autocomplete Pub Packages</h2>
+    <h2>The deeplink starter</h2>
+
+    <p>
+        <img src="https://raw.githubusercontent.com/Foso/Android_Deeplink_Starter/master/docs/deeplinkStarter.png"/>
+    <p>
+
+    <p><strong>DeeplinkValue</strong>
+   Here you can insert your deeplink. When this view gets opened from the Manifest file or navigation navgraph, this gets prefilled.
+    For every word that surrounded by curly brackets, an extra textfield will be added where you can insert the value, e.g. see the <strong>{noteId}</strong> above.
+
+</p>
+
+    <p><strong>Reload UI</strong>
+        When you change the text in "DeeplinkValue", you can use this to reload the starter view.
+    </p>
+    <p><strong>Launch Flags</strong>
+        Here you can insert additional flags to the deeplink
+    </p>
+
+
+    <h2>How to open the starter</h2>
+
+    <h3>Tools menu</h3>
+
+    <p>
+        <img src="https://raw.githubusercontent.com/Foso/Android_Deeplink_Starter/master/docs/toolsmenu.png"/>
+    <p>
+
+    <p> You can find the starter inside the Intellij Tools Menu</p>
+
+    <h3>Android Manifest</h3>
 
     <p>
         <img src="https://raw.githubusercontent.com/Foso/Android_Deeplink_Starter/master/docs/manifestdeeplink.png" width="400" alt="Autocomplete pub packages screenshot"/>
     <p>
 
-    <p>When adding a new package to your pubspec.yaml file, suggestions will show up. After auto-completing the name, the latest version will be added automatically.</p><br>
+    <p>When you have declared deeplinks  in your AndroidManifest xml, this plugin will add a deeplink icon next to the line with the <strong>data</strong>-Tag.
+        When you click on it, the deeplink starter will open filled with the contents of "android:host","android:pathPrefix" and "android:sheme"</p>
+
+    <h3>Android Navigation Component Navgraph </h3>
+
     <p>
-        <img src="https://giant.gfycat.com/PastObviousAmericanquarterhorse.gif" width="400" alt="Autocomplete pub packages screenshot"/>
+        <img src=" https://raw.githubusercontent.com/Foso/Android_Deeplink_Starter/master/docs/navigationdeeplink.png" width="400" alt="Autocomplete pub packages screenshot"/>
     <p>
 
-
-    <h2>Update Pub Packages</h2>
-    <p>If there's a new version available for a package, it will be highlighted. You can update these packages by opening the quick fix menu (Show Intention Actions) and choosing <em>"Update
-        package"</em>.</p><br>
-    <p>
-        <img src="https://i.imgur.com/orIVdDj.png" width="400" alt="Update pub packages screenshot"/>
-    <p>
+    <p>When you are using the <a href="https://developer.android.com/guide/navigation/navigation-getting-started">Android Navigation Component</a> and have the deeplinks declared in your navgraph xml, this plugin will add a deeplink icon next to the line.
+        When you click on it, the deeplink starter will open filled with the content of "app:uri"</p>
 
 
-    <h2>View Pub Package's Documentation</h2>
-    <p>When auto-completing packages or viewing packages inside your pubspec.yaml, press <code>Ctrl+Q</code> to show additional information for the package such as its documentation or a link
-        which leads to examples showing how to use the plugin. In order to get a larger dialog for reading the documentation, click the settings icon in the documentation dialog and select the
-        option <em>"Open as tool window"</em>.</p><br>
-    <p>
-        <img src="https://i.imgur.com/yTlNDiK.png" width="400" alt="View package's documentation screenshot"/>
-    <p>
 </head>
 <body>
 

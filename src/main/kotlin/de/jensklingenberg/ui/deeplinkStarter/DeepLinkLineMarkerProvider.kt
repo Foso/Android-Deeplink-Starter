@@ -6,12 +6,9 @@ import com.intellij.openapi.editor.markup.GutterIconRenderer
 import com.intellij.psi.PsiElement
 import com.intellij.psi.impl.source.xml.XmlAttributeImpl
 import com.intellij.psi.impl.source.xml.XmlAttributeValueImpl
-import com.intellij.psi.impl.source.xml.XmlTextImpl
 import com.intellij.psi.impl.source.xml.XmlTokenImpl
 import de.jensklingenberg.data.SimpleIcons
-import org.jetbrains.android.facet.AndroidFacet
-import org.jetbrains.android.facet.AndroidRootUtil
-import org.jetbrains.android.util.AndroidResourceUtil
+import de.jensklingenberg.data.resolveAndroidStringRes
 
 import java.awt.event.MouseEvent
 
@@ -25,8 +22,6 @@ class DeepLinkLineMarkerProvider : LineMarkerProvider {
     val ANDROID_PATHPREFIX_KEY = "android:pathPrefix"
 
     override fun getLineMarkerInfo(p0: PsiElement): LineMarkerInfo<*>? {
-
-
         val element = p0
         if (element is XmlTokenImpl) {
             when (element.text) {
@@ -61,7 +56,7 @@ class DeepLinkLineMarkerProvider : LineMarkerProvider {
         var deeplinktext = ""
         deeplinktext += if (scheme.isNotEmpty()) {
             if(scheme.contains("@string")){
-                "${resolveAndroidString(element,scheme)}://"
+                "${resolveAndroidStringRes(element,scheme)}://"
             }else{
                 "$scheme://"
             }
@@ -73,7 +68,7 @@ class DeepLinkLineMarkerProvider : LineMarkerProvider {
 
         deeplinktext += if (host.isNotEmpty()) {
             if(host.contains("@string")){
-                resolveAndroidString(element,host)
+                resolveAndroidStringRes(element,host)
             }else{
                 host
             }
@@ -83,7 +78,7 @@ class DeepLinkLineMarkerProvider : LineMarkerProvider {
 
         deeplinktext += if (pathPrefix.isNotEmpty()) {
             if(pathPrefix.contains("@string")){
-                resolveAndroidString(element,pathPrefix)
+                resolveAndroidStringRes(element,pathPrefix)
             }else{
                 pathPrefix
             }
@@ -97,29 +92,13 @@ class DeepLinkLineMarkerProvider : LineMarkerProvider {
     private fun foundDeeplinkTag(element: XmlTokenImpl) {
         var appUriElement = getXMLValue(element, APP_URI_KEY) ?: ""
         if (appUriElement.contains("@string")) {
-            appUriElement = resolveAndroidString(element, appUriElement)
+            appUriElement = resolveAndroidStringRes(element, appUriElement)
         }
         DeepLinkStarterView(DeepLinkStarterContract.Mode.NAVLIB, appUriElement).showAndGet()
 
     }
 
-    private fun resolveAndroidString(
-        element: XmlTokenImpl,
-        appUriElement: String
-    ): String {
-        val resName = appUriElement.substringAfter("@string/")
-        // val manifestFile = AndroidFacet.getInstance(element)?.let { AndroidRootUtil.getPrimaryManifestFile(it) }
-        val resPsiFields =
-            AndroidResourceUtil.findResourceFields(AndroidFacet.getInstance(element)!!, "string", resName, true)
 
-        if (resPsiFields.isNotEmpty()) {
-            val t1 = AndroidResourceUtil.findResourcesByField(resPsiFields.first())
-            return t1.first().parent.parent.children.filterIsInstance<XmlTextImpl>().first().text
-        } else {
-            return appUriElement
-        }
-
-    }
 
     private fun getXMLValue(element: XmlTokenImpl, s: String): String? {
         //TODO: Find better way to get the value

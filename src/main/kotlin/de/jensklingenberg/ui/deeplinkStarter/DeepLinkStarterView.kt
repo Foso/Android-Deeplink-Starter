@@ -63,7 +63,7 @@ class DeepLinkStarterView(
         Notifications.Bus.notify(
             Notification(
                 "Android Deeplink Starter",
-                "Hallo",
+                "Android Deeplink Starter",
                 text,
                 NotificationType.INFORMATION
             )
