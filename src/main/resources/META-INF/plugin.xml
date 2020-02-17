@@ -4,14 +4,38 @@
     <vendor email="mail@jensklingenberg.de" url="http://www.jensklingenberg.de">Jens Klingenberg</vendor>
 
     <description><![CDATA[
-    Adds a menu entry (Dukat: Generate Kotlin external declarations) to the Tools Menu and the context menu of files, to trigger Dukat to generate KotlinJS Wrapper
+    <h3>This plugin adds an alternative UI to start deeplinks</h3>
+        <br>
 
-    You still need to install Dukat(https://github.com/Kotlin/dukat)
-    The plugin works only on d.ts files
+        <h1>Features</h1>
+
+        <h2>Autocomplete Pub Packages</h2>
+        <p>When adding a new package to your pubspec.yaml file, suggestions will show up. After auto-completing the name, the latest version will be added automatically.</p><br>
+        <p>
+            <img src="https://giant.gfycat.com/PastObviousAmericanquarterhorse.gif" width="400" alt="Autocomplete pub packages screenshot"/>
+        <p>
+
+
+        <h2>Update Pub Packages</h2>
+        <p>If there's a new version available for a package, it will be highlighted. You can update these packages by opening the quick fix menu (Show Intention Actions) and choosing <em>"Update
+            package"</em>.</p><br>
+        <p>
+            <img src="https://i.imgur.com/orIVdDj.png" width="400" alt="Update pub packages screenshot"/>
+        <p>
+
+
+        <h2>View Pub Package's Documentation</h2>
+        <p>When auto-completing packages or viewing packages inside your pubspec.yaml, press <code>Ctrl+Q</code> to show additional information for the package such as its documentation or a link
+            which leads to examples showing how to use the plugin. In order to get a larger dialog for reading the documentation, click the settings icon in the documentation dialog and select the
+            option <em>"Open as tool window"</em>.</p><br>
+        <p>
+            <img src="https://i.imgur.com/yTlNDiK.png" width="400" alt="View package's documentation screenshot"/>
+        <p>
     ]]></description>
 
     <depends>com.intellij.modules.lang</depends>
     <depends>org.jetbrains.android</depends>
+
     <extensions defaultExtensionNs="com.intellij">
         <codeInsight.lineMarkerProvider language="XML"
                                         implementationClass="de.jensklingenberg.ui.deeplinkStarter.DeepLinkLineMarkerProvider"/>
