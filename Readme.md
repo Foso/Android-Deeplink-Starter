@@ -1,4 +1,18 @@
-  <h3>This plugin adds an alternative UI to start Android deeplinks</h3>
+ <h1 align="center">Android Deeplink Starter</h1>
+
+[![jCenter](https://img.shields.io/badge/Kotlin-1.3.61-green.svg
+)](https://github.com/Foso/MpApt/blob/master/LICENSE)[![jCenter](https://img.shields.io/badge/Apache-2.0-green.svg)](https://github.com/Foso/MpApt/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+<a href="https://twitter.com/intent/tweet?text=Hey, check out Android_Deeplink_Starter https://github.com/Foso/Android_Deeplink_Starter via @jklingenberg_ #Kotlin 
+"><img src="https://img.shields.io/twitter/url/https/github.com/angular-medellin/meetup.svg?style=social" alt="Tweet"></a>
+
+
+
+## Introduction 🙋‍♂️ 🙋‍
+ 
+ 
+ 
+ <h3>This plugin adds an alternative UI to start Android deeplinks</h3>
     <br>
     <h1>Features</h1>
     <h2>The deeplink starter</h2>
