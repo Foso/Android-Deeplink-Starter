@@ -5,8 +5,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 <a href="https://twitter.com/intent/tweet?text=Hey, check out Android_Deeplink_Starter https://github.com/Foso/Android_Deeplink_Starter via @jklingenberg_ #Kotlin 
 "><img src="https://img.shields.io/twitter/url/https/github.com/angular-medellin/meetup.svg?style=social" alt="Tweet"></a>
-
-
+[![Pub](https://img.shields.io/jetbrains/plugin/v/13810-android-deeplink-starter.svg?label=Android%20Deeplink%20Starter)](https://plugins.jetbrains.com/plugin/13810-android-deeplink-starter)
 
 ## Introduction 🙋‍♂️ 🙋‍
  
@@ -47,3 +46,28 @@
     <p>
     <p>When you are using the <a href="https://developer.android.com/guide/navigation/navigation-getting-started">Android Navigation Component</a> and have the deeplinks declared in your navgraph xml, this plugin will add a deeplink icon next to the line.
         When you click on it, the deeplink starter will open filled with the content of "app:uri"</p>
+        
+        
+        
+
+## :arrow_down:&nbsp;How to install?
+
+You can install plugin directly from IntelliJ IDEA or Android Studio:
+1. Open _Preferences_
+2. Choose _Plugins_
+3. Select the _Marketplace_ tab
+4. Search for **Android DeepLink Starter**
+5. Click on _install_
+
+## :card_file_box:&nbsp;How can I contribute to this plugin?
+
+* Create a [bug report](https://github.com/Foso/Android_Deeplink_Starter/issues/new?assignees=&labels=bug&template=i-encountered-a-bug-while-using-the-plugin.md&title=) when accounting a bug
+* Create a [feature request](https://github.com/Foso/Android_Deeplink_Starter/issues/new?assignees=&labels=enhancement&template=i-d-like-to-request-a-feature.md&title=)
+* Open up a [pull request](https://github.com/Foso/Android_Deeplink_Starter/pulls)
+
+## :fire:&nbsp;What's new?
+
+### 1.0.1
+<ul>
+    <li>initial release</li>
+</ul>
