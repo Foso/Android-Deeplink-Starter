@@ -2,6 +2,7 @@
     <id>de.jensklingenberg.ads</id>
     <name>Android DeepLink Starter</name>
     <vendor email="mail@jensklingenberg.de" url="http://www.jensklingenberg.de">Jens Klingenberg</vendor>
+    <idea-version since-build="191"/>
 
     <description><![CDATA[
     <h3>This plugin adds an alternative UI to start Android deeplinks</h3>
