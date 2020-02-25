@@ -29,7 +29,7 @@
         When you click on it, the deeplink starter will open filled with the contents of "android:host","android:pathPrefix" and "android:sheme"</p>
     <h3>Android Navigation Component Navgraph </h3>
     <p>
-        <img src=" https://raw.githubusercontent.com/Foso/Android_Deeplink_Starter/master/docs/navigationdeeplink.png" width="400" alt="Autocomplete pub packages screenshot"/>
+        <img src="https://raw.githubusercontent.com/Foso/Android_Deeplink_Starter/master/docs/navigationdeeplink.png" width="400" alt="Autocomplete pub packages screenshot"/>
     <p>
     <p>When you are using the <a href="https://developer.android.com/guide/navigation/navigation-getting-started">Android Navigation Component</a> and have the deeplinks declared in your navgraph xml, this plugin will add a deeplink icon next to the line.
         When you click on it, the deeplink starter will open filled with the content of "app:uri"</p>
